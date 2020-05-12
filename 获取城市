@@ -1,0 +1,4 @@
+# 获取全国城市数据
+
+
+curl https://service.nonedb.com/nonedb_data/city/find -X POST -d '{"where": {},"timestamp":1,"sign":"e7cebd0027b385eabc1c91c71123afc2c96dfb74"}' --header "Content-Type: application/json" --header "user:reader"
